@@ -1,0 +1,15 @@
+/* notifications */
+.ab-notifications { border-bottom: 1px solid #ddd; padding: 10px 30px 10px 0; margin-right: 15px; position: relative; }
+.ab-notifications input.ab-sender { margin-left: 20px; margin-top: 10px; }
+.ab-notifications .ab-form-field { padding-top: 10px; }
+.ab-notifications .ab-toggle-arrow { position: absolute; right: 0; top: 9px; width: 24px; height: 24px; cursor: pointer; }
+.ab-notifications .ab-form-label { display: block; float: left; margin-top: 3px; min-width: 80px; }
+.ab-notifications .ab-form-row { padding: 3px 0; overflow: hidden; }
+.ab-notifications .ab-form-row input[type="text"] { width: 700px!important; position: relative; z-index: 9; }
+.ab-notifications #message_editor { margin-top: -20px; }
+.ab-notifications #message_editor .wp-editor-wrap { margin-left: 81px; }
+.ab-notifications legend { margin: 0; border: 0; line-height: normal; }
+.ab-notifications legend input { margin: 8px 0 0!important; }
+.ab-notifications legend label { display: inline; }
+.ab-notifications .ab-codes table tr td { padding: 0 20px 0 0; font-size: 12px;}
+.ab-notifications .ab-codes table tr td input { cursor: pointer; border: none; width: 250px; }

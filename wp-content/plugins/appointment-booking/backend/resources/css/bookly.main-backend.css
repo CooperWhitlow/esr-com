@@ -1,0 +1,197 @@
+/* global class */
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+.ab-hidden { display: none; }
+.ab-bold { font-weight: bold; }
+.ab-red { color: red; vertical-align: bottom;font-size: 26px; }
+.ab-auto-w { width: auto!important; }
+.ab-inline-block { display: inline-block!important; }
+.ab-inline { display: inline; }
+.ab-col-arrow { color: #0088cc; cursor: pointer; }
+.ab-move { cursor: move; }
+.ab-rtext { text-align: right; }
+.ab-ltext { text-align: left; }
+.ab-update-button { margin-right: 10px; }
+.ab-appointment-popup { overflow: visible; }
+.ab-valign-top { vertical-align: top; }
+.ab-active { background-color: #ccc; }
+.ab-content form { margin: 0; }
+.wp-admin select,
+.wp-admin input { width: 200px; }
+ul.wp-submenu { margin: 0; }
+input[type='text'],
+input[type='number'],
+input[type='number'] { height: 30px!important; }
+input[type='password'] { height: 30px!important; }
+
+body { background: none!important; }
+
+/* popover global */
+.ab-popover + .popover,
+.ab-popover-ext + .popover { width: 280px!important; }
+.ab-popover, .ab-popover-ext { max-width: 25px; max-height: 25px; cursor: pointer; margin-left: 10px; }
+.ab-popover + .popover.right .arrow,
+.ab-popover-ext + .popover.right .arrow { margin-left: 0!important; }
+
+/* Popups */
+.ab-popup-wrapper { position: relative }
+.ab-left-bar .ab-popup-wrapper { margin: 15px 0 0 9px; }
+.ab-popup {
+  border: 1px solid #ccc;
+  padding: 5px;
+  box-shadow: 0px 0px 4px #ccc;
+  position: absolute;
+  top: 32px;
+  z-index: 1;
+  background: white;
+  border-radius: 5px;
+}
+.ab_jcal_popup {
+  border: 1px solid #ccc;
+  padding: 5px;
+  box-shadow: 0px 0px 4px #ccc;
+  background: white;
+  border-radius: 5px;
+}
+.ab-popup-save { margin-top: 5px; }
+.ab-popup-close { vertical-align: -1px; }
+.ab-popup-close-icon {
+  position: absolute;
+  top: -14px;
+  right: -14px;
+  display: block;
+  height: 32px;
+  width: 32px;
+  background: url("../images/close.png") 0 0 no-repeat;
+  padding-left: 0;
+}
+.ab-arrow {
+  border: 7px solid black;
+  border-color: transparent transparent #ccc transparent;
+  border-style: solid;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+.ab-popup .ab-arrow,
+.ab_jcal_popup .ab-arrow { left: 6px; top: -15px; }
+.ab-content label { white-space: nowrap; }
+.ab-content #ab-newstaff-fullname { width: 160px; }
+.ab-content td { white-space: nowrap; padding: 5px; border: 0!important; }
+.staff-popup-wrapper .ab-popup .ab-arrow { left: 34px; }
+.ab-staff-form,
+.ab-settings-form { max-width: 500px; }
+.ab-staff-form table td,
+.ab-settings-form table td { padding: 5px; }
+
+/* jCal calendar */
+.jCal .left { position: absolute; top: 0px; left: 300px; }
+.jCal .right { position: absolute; top: 0px; left: 395px; }
+.jCalMo .holidayDay { color: #FFF!important; background: #bd362f!important; }
+.ab_jcal_popup { position: absolute; margin-top: 28px; }
+.ab_jcal_popup td { line-height: 10px; }
+.ab_jcal_popup #ab_jcal_close {
+  position: absolute;
+  top: -14px;
+  right: -14px;
+  cursor: pointer;
+  display: block;
+  height: 32px;
+  width: 32px;
+  background: url("../images/close.png") 0 0 no-repeat;
+  padding-left: 0;
+}
+
+/* booking form */
+.ab-booking-form {
+  padding: 20px;
+  background: #ffffff;
+  margin-top: -20px!important;
+  margin-bottom: 20px!important;
+  border: 1px solid #ddd;
+  border-top: 0;
+  box-shadow: 1px 0px 5px #5f6267;
+}
+
+/* settings */
+.ab-left-tab {
+  width: 125px;
+  padding: 10px;
+  padding-left: 20px;
+  vertical-align: middle;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  height: 25px;
+  line-height: 25px;
+}
+.select_start, .select_end { width: auto!important; margin: 0; }
+#ab-annual-calendar { width: 715px; display: inline-block; padding: 5px; }
+
+/* grid content */
+.ab-left-bar { float: left; border-right: 1px solid #ddd; padding-right: 15px; }
+.ab-right-content { margin: 0 15px 0 0; border-left: 1px solid #ddd; padding-left: 15px; float: left; margin-left: -1px; }
+
+/* title page */
+.ab-title { font-size: 23px; padding: 9px 15px 0 0; margin: 0 15px 20px 0; line-height: 29px; border-bottom: 1px solid #ddd; }
+
+/* input value */
+.ab-value { width: 100%; margin: 0!important; }
+
+/* fake input effect */
+#ab_customers_list .displayed-value:hover,
+#ab-services-list .displayed-value:hover { border: 1px solid #aaa; background: #fff; border-radius: 3px; padding: 4px 6px; box-shadow: 1px 1px 2px rgba(0,0,0,0.1); }
+#ab_customers_list .displayed-value,
+#ab-services-list .displayed-value { border: 1px solid transparent; padding: 4px 6px; min-height: 20px; }
+#ab-services-list .ab-text-focus,
+#ab-services-list .ab-text-focus:focus { text-align: right; padding-right: 2px; width: 58px; margin: 0!important; height: 30px; }
+#ab_customers_list td.ab-phone .displayed-value { white-space: nowrap; }
+
+/* popup modal indicator */
+.loading-indicator { text-align: center; padding: 15px 0; }
+
+/* sort list */
+#ab_customers_list th.asc  > a,
+#ab_appointments_list th.asc  > a { padding-right: 15px; background: url("../images/asc.png") 100% 5px no-repeat; }
+#ab_customers_list th.desc > a,
+#ab_appointments_list th.desc > a { padding-right: 15px; background: url("../images/desc.png") 100% 5px no-repeat; }
+#ab_payments_list th.active.asc  > a,
+#ab_appointments_list th.active.asc  > a { padding-right: 15px; background: url("../images/asc.png") 100% 5px no-repeat; }
+#ab_payments_list th.active.desc > a,
+#ab_appointments_list th.active.desc > a { padding-right: 15px; background: url("../images/desc.png") 100% 5px no-repeat; }
+
+/* payments */
+.ab-nav-payment { margin-bottom: 20px; }
+.ab-nav-payment .ab-payment-list { width: 150px; }
+.ab-reportrange { background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc; margin-right: 10px; }
+.ab-payments-title { font-size: 18px; padding-bottom: 5px; border-bottom: 1px #ccc solid; }
+
+/* tabs panel */
+.ab-nav-tabs {  margin-right: 15px;  }
+.ab-nav-tabs .ab-step-tabs.active > a { box-shadow: 0px -3px 3px #5f6267; }
+.ab-nav-tabs .ab-step-tabs > a:hover { background: none; border: 1px solid transparent; }
+
+/* Purchase Code */
+.purchase-code { width: 320px!important; text-align: center; font-weight: bold; }
+
+/* WP 3.8.1 Menu */
+#toplevel_page_ab-system > ul { margin-left: 0px !important; }
+
+/* Import Fixtures */
+#ab_settings_import { height: 40px; padding-bottom: 30%; }
+
+/* buttons */
+.ab-modal-button { text-align: left; margin-left: 180px; }
+
+/* button reset */
+.ab-reset-form { border: 0; background: none; color: #21759b; cursor: pointer; padding: 0; vertical-align: -2px; }
+.ab-reset-form:hover { color: #d54e21; text-decoration: none; }
+
+/* google setting */
+.ab-instruction { border: 1px solid #ddd; padding: 10px; }
+.ab-instruction legend { width: auto; padding: 0 10px; margin: 0; border: 0; font-size: 17.5px; font-weight: bold; }
+
+/* calendar bug */
+.daterangepicker .calendar { max-width: 100%!important; }
+.daterangepicker.dropdown-menu input.input-mini { width: 60px; }
