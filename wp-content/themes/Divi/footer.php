@@ -39,6 +39,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 
 						<p id="footer-info">
 							<a href="/book-repair/">Book Repair Now!</a>
+							<a href="http://www.cooperwhitlow.com">Need a Custom Website?</a>
 						 </p>
 					</div>	<!-- .container -->
 				</div>

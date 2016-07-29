@@ -607,9 +607,11 @@ span.comment_date { color: #000; font-size: 14px; font-weight: 300; }
 	/* Bottom Bar */
 	#footer-bottom { background-color: #1f1f1f; background-color: rgba(0, 0, 0, 0.32); padding: 15px 0 5px; }
 	#footer-bottom a { -moz-transition: all 0.4s ease-in-out; -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out; }
-	#footer-info { text-align: left; color: #666; padding-bottom: 10px; }
-	#footer-info a { font-weight: 700; color: #666; }
-	#footer-info a:hover { opacity: .7; }
+	#footer-info { text-align: left; color: #666; padding-bottom: 10px;}
+	#footer-info a { font-weight: 700; color: #666;}
+	#footer-info a:hover { opacity: .7;}
+	#footer-info a:nth-child(odd) {float: left;}
+	#footer-info a:nth-child(even) {float: right;}
 
 	/* Footer Menu */
 	#et-footer-nav { background-color: rgba(255,255,255,0.05); }
