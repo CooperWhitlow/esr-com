@@ -11,6 +11,9 @@ del { text-decoration: line-through; }
 table { border-collapse: collapse; border-spacing: 0; }
 article, aside, footer, header, hgroup, nav, section { display: block; }
 
+article h1 {
+	margin-left: 8%;
+}
 @font-face {
     font-family: "appleFont";
     src: url("../apple.woff") format('woff');
@@ -591,7 +594,7 @@ span.comment_date { color: #000; font-size: 14px; font-weight: 300; }
 	#reply-title small { display: block; font-size: 14px; font-weight: 400; }
 
 /* Footer */
-#main-footer { margin-top: 8px; background-color: #222222; }
+#main-footer {background-color: #222222; }
 
 	/* Widgets */
  	#footer-widgets { padding: 6% 0 0; }
@@ -1228,7 +1231,7 @@ text-align: center !important;
 }
 
 #main-page h2 {
-	line-height:60px;
+	line-height:70px;
 	height: 60px;
 	margin: 40px auto;
 	color: black;
@@ -1244,7 +1247,35 @@ text-align: center !important;
 
 }
 
-#about-page, #booking-page {
+#about-page {
+	margin-top: -65px;
+	font-weight: bold;
+	color: black;
+  background: url('http://emeraldscreenrepair.com/wp-content/uploads/2016/08/27133872350_7c355da667_h.jpg');
+  background-size: cover;
+  height:450px;
+  text-align: left;
+  float: none;
+  width:100%;
+}
+#about-page a {
+	color: black;
+  text-decoration: underline;
+}
+#post-151 h1 {
+	display: none;
+}
+
+#about-page p {
+	margin-left:8%;
+	margin-right:8%;
+}
+
+#about-page:nth-child(1) {
+	margin-top:5%;
+}
+
+#booking-page {
   text-align: left;
   width: 80%;
   margin: 0 auto;
@@ -1293,11 +1324,6 @@ text-align: center !important;
 	padding-top: 95px;
 }*/
 
-@media (max-width: 684px) {
-	#main-page h1 {
-	padding-top: 95px;
-}
-}
 
 @media (max-width: 676px) {
 	#main-page h1 {
