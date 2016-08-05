@@ -106,7 +106,7 @@ article>h1 {
 	.et_vertical_nav #page-container { padding-top: 0 !important; position: relative; }
 
 /* Pages */
-.main_title { margin: 35px auto 15px 10px; }
+.main_title { margin: 20px auto 15px 10px; }
 
 /* Button Styles */
 .woocommerce a.button.alt, .woocommerce-page a.button.alt, .woocommerce button.button.alt, .woocommerce-page button.button.alt, .woocommerce input.button.alt, .woocommerce-page input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce-page #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page #content input.button.alt,
@@ -1249,12 +1249,11 @@ text-align: center !important;
 }
 
 #about-page {
-	margin-top:-650px;
 	font-weight: bold;
 	color: black;
   background: url('http://emeraldscreenrepair.com/wp-content/uploads/2016/08/27133872350_7c355da667_h.jpg');
   background-size: cover;
-  height:450px;
+  height: 520px;
   text-align: left;
   float: none;
   width:100%;
@@ -1264,23 +1263,24 @@ text-align: center !important;
   text-decoration: underline;
   cursor: pointer;
 }
+
+#post-151 {
+	margin-top:-65px !important;
+}
 #post-151 h1 {
 	display: none;
 }
 
 #about-page p {
-	margin-left:8%;
-	margin-right:8%;
-}
-
-#about-page:nth-child(1) {
-	margin-top:5%;
+	margin-left:15%;
+	margin-right:15%;
+	background-color: rgba(255,255,255,0.2);
 }
 
 #booking-page {
   text-align: left;
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto 40px auto;
 }
 
 #left-area {

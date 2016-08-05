@@ -35,7 +35,7 @@
 	</script>
 
 	<?php wp_head(); ?>
-	<link rel="stylesheet" type="text/css" href="/wp-content/themes/Divi/css/main-styles.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/wp-content/themes/Divi/css/main-styles.css?v=<?=time();?>" media="screen" />
 </head>
 <body <?php body_class(); ?>>
 	<div id="page-container">
