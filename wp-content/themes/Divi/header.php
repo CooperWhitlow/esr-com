@@ -123,7 +123,7 @@
 				<div class="logo_container">
 					<span class="logo_helper"></span>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-						<img src="http://54.213.128.10/wp-content/uploads/2016/07/iPhone-3.png" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" id="logo" data-height-percentage="<?php echo esc_attr( et_get_option( 'logo_height', '54' ) ); ?>" /><h3>iPhone Screen Repair<span id="seattle"> | Seattle</span></h3>
+						<img src="http://emeraldscreenrepair.com/wp-content/uploads/2016/08/iPhone-3-1-1.png" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" id="logo" data-height-percentage="<?php echo esc_attr( et_get_option( 'logo_height', '54' ) ); ?>" /><h3>Emerald City iPhone Screen Repair<!-- <span id="seattle"> | Seattle</span> --></h3>
 					</a>
 				</div>
 				<div id="et-top-navigation" data-height="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>" data-fixed-height="<?php echo esc_attr( et_get_option( 'minimized_menu_height', '40' ) ); ?>">

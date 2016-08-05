@@ -79,7 +79,7 @@ article, aside, footer, header, hgroup, nav, section { display: block; }
 .woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message { background: #2EA3F2; }
 #et_search_icon:hover, .mobile_menu_bar:before, .et-social-icon a:hover, .comment-reply-link, .form-submit input, .entry-summary p.price ins, .woocommerce div.product span.price, .woocommerce-page div.product span.price, .woocommerce #content div.product span.price, .woocommerce-page #content div.product span.price, .woocommerce div.product p.price, .woocommerce-page div.product p.price, .woocommerce #content div.product p.price, .woocommerce-page #content div.product p.price, .woocommerce .star-rating span:before, .woocommerce-page .star-rating span:before, .woocommerce a.button.alt, .woocommerce-page a.button.alt, .woocommerce button.button.alt, .woocommerce-page button.button.alt, .woocommerce input.button.alt, .woocommerce-page input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce-page #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page #content input.button.alt, .woocommerce a.button, .woocommerce-page a.button, .woocommerce button.button, .woocommerce-page button.button, .woocommerce input.button, .woocommerce-page input.button, .woocommerce #respond input#submit, .woocommerce-page #respond input#submit, .woocommerce #content input.button, .woocommerce-page #content input.button, .woocommerce a.button.alt:hover, .woocommerce-page a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce-page input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce #content input.button.alt:hover, .woocommerce-page #content input.button.alt:hover, .woocommerce a.button:hover, .woocommerce-page a.button:hover, .woocommerce button.button, .woocommerce-page button.button:hover, .woocommerce input.button:hover, .woocommerce-page input.button:hover, .woocommerce #respond input#submit:hover, .woocommerce-page #respond input#submit:hover, .woocommerce #content input.button:hover, .wp-pagenavi span.current, .wp-pagenavi a:hover, .et_password_protected_form .et_submit_button, .nav-single a, .posted_in a, #top-menu li.current-menu-ancestor > a, #top-menu li.current-menu-item > a, .bottom-nav li.current-menu-item > a, .footer-widget h4 { color: #2EA3F2; }
 .et-search-form, .nav li ul, .et_mobile_menu, .footer-widget li:before, blockquote { border-color: #2EA3F2; }
-#top-header, #et-secondary-nav li ul { background-color: #black; }
+#top-header, #et-secondary-nav li ul { background-color: black; }
 
 /* Containers */
 #main-content { background-color: #fff; }
@@ -605,9 +605,9 @@ span.comment_date { color: #000; font-size: 14px; font-weight: 300; }
 	.footer-widget .widget_adsensewidget ins { min-width: 160px; }
 
 	/* Bottom Bar */
-	#footer-bottom { background-color: #1f1f1f; background-color: rgba(0, 0, 0, 0.32); padding: 15px 0 5px; }
+	#footer-bottom { background-color: #1f1f1f; background-color: rgba(0, 0, 0, 0.32); padding: 5px 0px; }
 	#footer-bottom a { -moz-transition: all 0.4s ease-in-out; -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out; }
-	#footer-info { text-align: left; color: #666; padding-bottom: 10px;}
+	#footer-info { text-align: left; color: #666;}
 	#footer-info a { font-weight: 700; color: #666;}
 	#footer-info a:hover { opacity: .7;}
 	#footer-info a:nth-child(odd) {float: left;}
@@ -1201,6 +1201,10 @@ margin: 0 auto !important;
 display: block;
 text-align: center !important;
 }
+
+#footer-bottom p {
+	padding-top: 0px;
+}
 #sidebar {
 	display: none;
 }
@@ -1269,8 +1273,9 @@ text-align: center !important;
 }
 
 #footer-info a {
-	font-size:18px;
+	font-size:16px;
 	color: white;
+	vertical-align: middle;
 }
 
 #left-area {
@@ -1283,9 +1288,20 @@ text-align: center !important;
 	}
 }
 
-@media (max-width: 536px) {
+/*@media (max-width: 536px) {
 	#main-page h1 {
 	padding-top: 95px;
+}*/
+
+@media (max-width: 684px) {
+	#main-page h1 {
+	padding-top: 95px;
+}
+}
+
+@media (max-width: 676px) {
+	#main-page h1 {
+	padding-top: 70px;
 }
 
 #main-page h2 {
@@ -1295,4 +1311,5 @@ text-align: center !important;
 .hide-crap {
     display: none;
     visibility: hidden;
+}
 }
