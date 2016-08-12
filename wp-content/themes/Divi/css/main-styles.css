@@ -106,7 +106,7 @@ article>h1 {
 	.et_vertical_nav #page-container { padding-top: 0 !important; position: relative; }
 
 /* Pages */
-.main_title { margin: 20px auto 15px 10px; }
+.main_title { margin: 20px auto 5px 7%; }
 
 /* Button Styles */
 .woocommerce a.button.alt, .woocommerce-page a.button.alt, .woocommerce button.button.alt, .woocommerce-page button.button.alt, .woocommerce input.button.alt, .woocommerce-page input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce-page #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page #content input.button.alt,

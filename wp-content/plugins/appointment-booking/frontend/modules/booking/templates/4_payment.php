@@ -38,23 +38,23 @@ $_stripe       = get_option( 'ab_stripe' ) == 1;
 <?php endif; ?>
 
 <div class="ab-payment-nav">
-    <div style="margin-bottom: 15px!important;" class="ab-row-fluid"><?php _e( $info_text, 'ab' ) ?></div>
+    <div style="margin-bottom: 10px!important;" class="ab-row-fluid"><?php _e( $info_text, 'ab' ) ?></div>
     <?php if ($_local) : ?>
-        <div class="ab-row-fluid ab-list">
+        <div class="ab-row-fluid ab-list" style="margin-bottom: 6px!important;">
             <label>
                 <input type="radio" class="ab-local-payment" checked="checked" name="payment-method-<?php echo $form_id ?>" value="local"/>
                 <?php _e( get_option( 'ab_appearance_text_label_pay_locally' ), 'ab' ) ?>
+                 <img src="<?php echo plugins_url( 'resources/images/cards.png', dirname( dirname( dirname( __FILE__ ) ) ) ) ?>" style="margin-left: 5px;" alt="cards" />
             </label>
         </div>
     <?php endif ?>
 
     <?php if ($_paypal) : ?>
-        <div class="ab-row-fluid ab-list">
+        <div class="ab-row-fluid ab-list" style="margin-bottom: 15px!important;">
             <label>
                 <input type="radio" class="ab-paypal-payment" <?php if ( !$_local ) echo 'checked="checked"' ?> name="payment-method-<?php echo $form_id ?>" value="paypal"/>
-                <?php _e( 'I will pay now with Credit Card via PayPal', 'ab' ) ?>
-                <img src="<?php echo plugins_url( 'frontend/resources/images/paypal.png', AB_PATH . '/main.php' ) ?>" style="margin-left: 10px;" alt="paypal" />
-                <img src="<?php echo plugins_url( 'resources/images/cards.png', dirname( dirname( dirname( __FILE__ ) ) ) ) ?>" style="margin-left: 0px;" alt="cards" />
+                <?php _e( 'I will pay now by PayPal', 'ab' ) ?>
+                <img src="<?php echo plugins_url( 'frontend/resources/images/paypal.png', AB_PATH . '/main.php' ) ?>" style="margin-left: 5px;" alt="paypal" />
                 <input id="tmp_form_id" type="hidden" value="<?php echo $form_id ? $form_id : '' ?>" />
             </label>
             <?php if ( $paypal_status && $paypal_status[ 'status' ] == 'error' ): ?>
