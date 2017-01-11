@@ -38,7 +38,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 				?>
 
 						<p id="footer-info">
-							<a href="/book-repair/">Book Repair Now!</a>
+							<a href="/book-repair/"></a>
 							<a href="http://www.cooperwhitlow.com">Custom website by RCC</a>
 						 </p>
 					</div>	<!-- .container -->

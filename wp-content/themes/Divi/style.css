@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 /* Main Theme Styles */
-@import url("./css/main-styles.css?ver=2.5.3");
+@import url("./css/main-styles.css");
 
 /* Page Builder Modules Styles */
-@import url("./includes/builder/styles/frontend-builder-style.css?ver=2.5.3");
+@import url("./includes/builder/styles/frontend-builder-style.css");

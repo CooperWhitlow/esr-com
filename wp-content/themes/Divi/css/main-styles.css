@@ -37,7 +37,7 @@ article>h1 {
 	p:last-of-type { padding-bottom: 0; }
 	strong { font-weight: bold; }
 	cite, em, i { font-style: italic; }
-	pre, code { font-family: Courier New, monospace; margin-bottom: 10px; }
+	pre, code { font-family: Courier, monospace; margin-bottom: 10px; }
 	ins { text-decoration: none; }
 	sup, sub { height: 0; line-height: 1; position: relative; vertical-align: baseline; }
 	sup { bottom: 0.8em; }
@@ -87,7 +87,7 @@ article>h1 {
 
 /* Containers */
 #main-content { background-color: #fff; }
-#main-header { -moz-transition: background-color 0.4s, color 0.4s, transform 0.4s, opacity 0.4s ease-in-out; -webkit-transition: background-color 0.4s, color 0.4s, transform 0.4s, opacity 0.4s ease-in-out; transition: background-color 0.4s, color 0.4s, transform 0.4s, opacity 0.4s ease-in-out; }
+#main-header { -moz-transition: background-color 0.4s, color 0.4s, transform 0.4s, opacity 0.4s ease-in-out; -webkit-transition: background-color 0.4s, color 0.4s, transform 0.4s, opacity 0.4s ease-in-out; transition: background-color 0.4s, color 0.4s, transform 0.4s, opacity 0.4s ease-in-out; background-image: url(/wp-content/uploads/2017/01/peel.png); background-position: right top; background-repeat: no-repeat; background-size: contain;}
 .container { width: 80%; max-width: 1080px; margin: auto; position: relative; }
 #main-content .container {}
 .et_full_width_page #main-content .container:before, .et_full_width_portfolio_page #main-content .container:before { display: none; }
@@ -525,7 +525,7 @@ p.woocommerce-result-count { font-weight: 500; font-size: 14px; color: #999; pad
 		#et-secondary-nav li:hover { visibility: inherit; }
 
 	/* Dropdown Arrows */
-	#top-menu .menu-item-has-children > a:first-child:after, #et-secondary-nav .menu-item-has-children > a:first-child:after { font-family: 'ETmodules'; content: "3"; font-size: 16px; position: absolute; right: 0; top: 0; font-weight: 800; }
+	#top-menu .menu-item-has-children > a:first-child:after, #et-secondary-nav .menu-item-has-children > a:first-child:after { font-family: 'ETmodules'; content: "33"; font-size: 16px; position: absolute; right: 0; top: 0; font-weight: 800; }
 	#top-menu .menu-item-has-children > a:first-child, #et-secondary-nav .menu-item-has-children > a:first-child { padding-right: 20px; }
 	#top-menu li .menu-item-has-children > a:first-child { padding-right: 40px; }
 	#top-menu li .menu-item-has-children > a:first-child:after { right: 20px; top: 6px; }
@@ -566,7 +566,7 @@ p.woocommerce-result-count { font-weight: 500; font-size: 14px; color: #999; pad
 	/* Mobile Menu */
 	#et_mobile_nav_menu { float: right; display: none; }
 	.mobile_menu_bar { position: relative; display: block; line-height: 0; }
-	.mobile_menu_bar:before { content: "\61"; font-size: 32px; left: 0; position: relative; top: 0; cursor: pointer; }
+	.mobile_menu_bar:before { content: "\61"; font-size: 32px; left: 0; position: relative; top: 0; cursor: pointer;}
 	.mobile_nav .select_page { display: none; }
 
 /* Comments */
@@ -729,6 +729,32 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
 	.et_pb_menu_hidden #top-menu, .et_pb_menu_hidden #et_search_icon:before, .et_pb_menu_hidden .mobile_menu_bar { opacity: 0; -webkit-animation: fadeOutBottom 1s 1 cubic-bezier(0.77,0,.175,1); -moz-animation: fadeOutBottom 1s 1 cubic-bezier(0.77,0,.175,1); -o-animation: fadeOutBottom 1s 1 cubic-bezier(0.77,0,.175,1); animation: fadeOutBottom 1s 1 cubic-bezier(0.77,0,.175,1); }
 	.et_pb_menu_visible #top-menu, .et_pb_menu_visible #et_search_icon:before, .et_pb_menu_visible .mobile_menu_bar { z-index: 99; opacity: 1; -webkit-animation: fadeInBottom 1s 1 cubic-bezier(0.77,0,.175,1); -moz-animation: fadeInBottom 1s 1 cubic-bezier(0.77,0,.175,1); -o-animation: fadeInBottom 1s 1 cubic-bezier(0.77,0,.175,1); animation: fadeInBottom 1s 1 cubic-bezier(0.77,0,.175,1); }
 	.et_pb_no_animation #top-menu, .et_pb_no_animation #et_search_icon:before, .et_pb_no_animation .mobile_menu_bar, .et_pb_no_animation.et_search_form_container { animation: none !important; -o-animation: none !important; -webkit-animation: none !important; -moz-animation: none !important;  }
+
+.book-now h2 {
+padding: 0px; 
+line-height:60px;
+height: 60px;
+margin: -20px auto 40px auto;
+color: white;
+  background-color: #2EA3F2;
+  width:250px;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.book-now h2:hover {
+	cursor: pointer;
+	color: lightgrey;
+}
+
+.yelp-logo {
+	float: right;
+    width: 60px; 
+    height: 100px; 
+    cursor: pointer; 
+    margin-top: -100px;
+
+}
 
 /* Responsive Styles Large Desktop And Above */
 @media all and ( min-width: 1405px ) {
@@ -1123,8 +1149,11 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
 	body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header { top: 80px; }
 }
 
+
 /* Responsive Styles Smartphone Only */
 @media all and ( max-width: 767px ) {
+
+	
 
 	/* Blog + Sidebar Module + Footer */
 	#footer-widgets .footer-widget,
@@ -1237,7 +1266,7 @@ text-align: center !important;
 	margin: 40px auto;
 	color: black;
   background-color: white;
-  width:220px;
+  width:250px;
   border-radius: 40px;
 }
 
@@ -1251,7 +1280,7 @@ text-align: center !important;
 #about-page {
 	font-weight: bold;
 	color: black;
-  background: url('http://emeraldscreenrepair.com/wp-content/uploads/2016/08/27133872350_7c355da667_h.jpg');
+  background: url('/wp-content/uploads/2016/08/27133872350_7c355da667_h.jpg');
   background-size: cover;
   height: 520px;
   text-align: left;
@@ -1274,7 +1303,7 @@ text-align: center !important;
 #about-page p {
 	margin-left:15%;
 	margin-right:15%;
-	background-color: rgba(255,255,255,0.2);
+	background-color: rgba(255,255,255,0.5);
 }
 
 #booking-page {
@@ -1332,6 +1361,10 @@ text-align: center !important;
 	padding-top: 70px;
 }
 
+.yelp-logo {
+    width: 40px;
+}
+
 #main-page h2 {
 	margin-top: 65px;
 }
@@ -1339,5 +1372,13 @@ text-align: center !important;
 .hide-crap {
     display: none;
     visibility: hidden;
+}
+}
+
+@media (max-width: 399px) {
+
+.yelp-logo {
+    width: 30px;
+
 }
 }

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the 4.5.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-05-08 02:07:38+0000\n"
+"PO-Revision-Date: 2016-07-23 09:09:28+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -208,7 +208,7 @@ msgstr "이메일 주소 %s 에서 받은 메일함을 확인하시고 주어진
 
 #: wp-signup.php:589
 msgid "If you do not activate your username within two days, you will have to sign up again."
-msgstr "2 일 이내에 사용자명을 활성화하지 않으면, 다시 가입해야합니다."
+msgstr "2 일 이내에 사용자명을 활성화하지 않으면, 다시 가입해야 합니다."
 
 #: wp-signup.php:653
 msgid "Signup"
@@ -225,7 +225,7 @@ msgstr "하지만, 사이트를 사용하기 전에 <strong>활성화해야 합�
 
 #: wp-signup.php:735
 msgid "If you do not activate your site within two days, you will have to sign up again."
-msgstr "2 일 이내에 사이트를 활성화하지 않으면, 다시 가입해야합니다."
+msgstr "2 일 이내에 사이트를 활성화하지 않으면, 다시 가입해야 합니다."
 
 #: wp-signup.php:736
 msgid "Still waiting for your email?"

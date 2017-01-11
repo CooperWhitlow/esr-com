@@ -36,6 +36,16 @@
 
 	<?php wp_head(); ?>
 	<link rel="stylesheet" type="text/css" href="/wp-content/themes/Divi/css/main-styles.css?v=<?=time();?>" media="screen" />
+	<!--Start of Zendesk Chat Script-->
+	<script type="text/javascript">
+	window.$zopim||(function(d,s){var z=$zopim=function(c){
+	z._.push(c)},$=z.s=
+	d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+	_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+	$.src='https://v2.zopim.com/?4UfRF9OfekpLq03CM96UjFhwASwnTBJD';z.t=+new Date;$.
+	type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+	</script>
+<!--End of Zendesk Chat Script-->
 </head>
 <body <?php body_class(); ?>>
 	<div id="page-container">
@@ -123,7 +133,7 @@
 				<div class="logo_container">
 					<span class="logo_helper"></span>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-						<img src="http://emeraldscreenrepair.com/wp-content/uploads/2016/08/iPhone-3-1-1.png" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" id="logo" data-height-percentage="<?php echo esc_attr( et_get_option( 'logo_height', '54' ) ); ?>" /><h3>Emerald City iPhone Screen Repair<!-- <span id="seattle"> | Seattle</span> --></h3>
+						<img src="/wp-content/uploads/2016/08/iPhone-3-1-1.png" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" id="logo" data-height-percentage="<?php echo esc_attr( et_get_option( 'logo_height', '54' ) ); ?>" /><h3>Emerald City iPhone Screen Repair<!-- <span id="seattle"> | Seattle</span> --></h3>
 					</a>
 				</div>
 				<div id="et-top-navigation" data-height="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>" data-fixed-height="<?php echo esc_attr( et_get_option( 'minimized_menu_height', '40' ) ); ?>">
@@ -180,6 +190,7 @@
 					<span class="et_close_search_field"></span>
 				</div>
 			</div>
+			<a class="yelp-logo" href="https://www.yelp.com/biz/emerald-city-iphone-screen-repair-seattle-3?utm_campaign=www_business_share_popup&utm_medium=copy_link&utm_source=(direct)" target="_blank"></a>
 		</header> <!-- #main-header -->
 
 		<div id="et-main-area">
