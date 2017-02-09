@@ -30,7 +30,7 @@
 	<script src="<?php echo esc_url( $template_directory_uri . '/js/html5.js"' ); ?>" type="text/javascript"></script>
 	<![endif]-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script type="text/javascript" src="wp-content/themes/Divi/js/customizations.js"></script>
+	<script type="text/javascript" src="/wp-content/themes/Divi/js/customizations.js"></script>
 	<script type="text/javascript">
 		document.documentElement.className = 'js';
 	</script>

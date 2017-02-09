@@ -756,6 +756,38 @@ color: white;
 
 }
 
+.upgrade-container {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.upgrade-container img {
+	display: block;
+	margin: 0 auto;
+}
+
+label a {
+	text-decoration: underline;
+}
+
+table {
+	color: black;
+	font-weight: bold;
+}
+
+tbody td:nth-child(2) {
+	color:green;
+}
+
+tbody td:nth-child(3) {
+	color:red;
+}
+
+tbody>tr:first-child>td:last-child {
+	color:green;
+}
+
 /* Responsive Styles Large Desktop And Above */
 @media all and ( min-width: 1405px ) {
 	.et_vertical_nav.et_right_sidebar.woocommerce div.product div.images, .et_vertical_nav.et_right_sidebar.woocommerce-page div.product div.images, .et_vertical_nav.et_right_sidebar.woocommerce #content div.product div.images, .et_vertical_nav.et_right_sidebar.woocommerce-page #content div.product div.images, .et_vertical_nav.et_left_sidebar.woocommerce div.product div.images, .et_vertical_nav.et_left_sidebar.woocommerce-page div.product div.images, .et_vertical_nav.et_left_sidebar.woocommerce #content div.product div.images, .et_vertical_nav.et_left_sidebar.woocommerce-page #content div.product div.images { width: 315px !important; }
