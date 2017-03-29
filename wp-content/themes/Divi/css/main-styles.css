@@ -22,7 +22,7 @@ article>h1 {
 
 /* Basic Styles */
 	/* Body */
-	body { font-family: "appleFont", Arial, sans-serif; font-size: 14px; color: #666; background-color: #fff; line-height: 1.7em; font-weight: 500; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+	body { font-family: "appleFont", Arial, sans-serif; font-weight: bold; font-size: 14px; color: black; background-color: #fff; line-height: 1.7em; font-weight: 600; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 	body.et_non_fixed_nav.et_transparent_nav.et_boxed_layout #page-container,
 	body.et_fixed_nav.et_boxed_layout #page-container { padding-top: 80px; }
 	body.page-template-page-template-blank-php #page-container { padding-top: 0 !important; }
@@ -505,7 +505,7 @@ p.woocommerce-result-count { font-weight: 500; font-size: 14px; color: #999; pad
 /* Dropdown Menu */
 #et-top-navigation { float: right; }
 #top-menu li li { padding: 0 20px; margin:0; }
-#top-menu li li a { padding: 6px 20px; width: 200px; }
+#top-menu li li a { padding: 6px 20px; width: 200px;}
 
 	/* Secondary Navigation */
 	#et-secondary-nav li { position: relative; text-align: right; }
@@ -525,7 +525,7 @@ p.woocommerce-result-count { font-weight: 500; font-size: 14px; color: #999; pad
 		#et-secondary-nav li:hover { visibility: inherit; }
 
 	/* Dropdown Arrows */
-	#top-menu .menu-item-has-children > a:first-child:after, #et-secondary-nav .menu-item-has-children > a:first-child:after { font-family: 'ETmodules'; content: "33"; font-size: 16px; position: absolute; right: 0; top: 0; font-weight: 800; }
+	#top-menu .menu-item-has-children > a:first-child:after, #et-secondary-nav .menu-item-has-children > a:first-child:after { font-family: 'ETmodules'; content: "33"; font-size: 16px; position: absolute; right: 0; top: 0; font-weight: 900; }
 	#top-menu .menu-item-has-children > a:first-child, #et-secondary-nav .menu-item-has-children > a:first-child { padding-right: 20px; }
 	#top-menu li .menu-item-has-children > a:first-child { padding-right: 40px; }
 	#top-menu li .menu-item-has-children > a:first-child:after { right: 20px; top: 6px; }
@@ -1137,7 +1137,7 @@ tbody>tr:first-child>td:last-child {
 
 		/* Social Icons */
 		.et-social-icons, #footer-info { float: none; text-align: center; }
-		.et-social-icons { margin: 0 0 5px; }
+		.et-social-icons { margin: 0px; }
 		#top-header .et-social-icons { margin-bottom: 0; }
 
 		/* Cart */
